@@ -24,6 +24,8 @@ import ReadOnly from '../../examples/read-only'
 import RichText from '../../examples/rich-text'
 import SearchHighlighting from '../../examples/search-highlighting'
 import Tables from '../../examples/tables'
+import RichTextHugeDoc from '../../examples/rich-text-huge-doc'
+import RichTextHugeDeepDocExample from '../../examples/rich-text-huge-deep-doc'
 
 const EXAMPLES = [
   ['Checklists', CheckLists, 'check-lists'],
@@ -40,6 +42,12 @@ const EXAMPLES = [
   ['Plain Text', PlainText, 'plain-text'],
   ['Read-only', ReadOnly, 'read-only'],
   ['Rich Text', RichText, 'rich-text'],
+  ['Rich Text Huge Doc', RichTextHugeDoc, 'rich-text-huge-doc'],
+  [
+    'Rich Text Huge Deep Doc',
+    RichTextHugeDeepDocExample,
+    'rich-text-huge-deep-doc',
+  ],
   ['Search Highlighting', SearchHighlighting, 'search-highlighting'],
   ['Tables', Tables, 'tables'],
 ]
